@@ -16,10 +16,13 @@
             android:name=".activities.FruitListViewActivity"
             android:exported="false" />
         <activity
+            android:name=".activities.FruitGridViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.FruitGridViewActivity"
+            android:name=".activities.FruitRecyclerViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
