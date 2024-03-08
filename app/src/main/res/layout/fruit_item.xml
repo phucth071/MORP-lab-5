@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  Imageview hiển thị ảnh Fruit và TextView tên Fruit  -->
+    <ImageView
+        android:id="@+id/imageview_fruit"
+        android:layout_width="140dp"
+        android:layout_height="90dp"/>
+    <TextView
+        android:id="@+id/textview_fruit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageview_fruit"
+        android:textSize="20dp"
+        android:textColor="#FFB300"/>
+    <TextView
+        android:id="@+id/textview_fruit_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_fruit_name"
+        android:layout_toRightOf="@+id/imageview_fruit"
+        android:textSize="16dp"
+        android:textColor="@color/primary_text"/>
+
+</RelativeLayout>
